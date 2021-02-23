@@ -2,4 +2,9 @@
     --color-primary: #0078fd;
     
     --color-white: #ffffff;
+    
+    --space-lg: 32px;
+    --space-md: 16px;
+    --space-sm: 8px;
+    --space-xs: 4px;
 }
