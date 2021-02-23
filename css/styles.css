@@ -1,0 +1,255 @@
+/*Color Scheme: https://color.adobe.com/C%C3%B3pia-de-Copy-of-Neutral-Blue-color-theme-10863013/?showPublished=true*/
+/*Direct links for the images 
+https://s8.postimg.cc/jj75kmb9x/info-bg.jpg
+https://s8.postimg.cc/5000j6uzp/iphone.png
+https://s8.postimg.cc/itod89ig5/showcase.jpg
+*/
+
+body {
+    font-family: 'Open-sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+/*fit to the size of the container*/
+
+img {
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+}
+
+/*Common Classes*/
+
+.bigtext {
+    color: #91AA9D;
+    /*DarkBlue Text*/
+}
+
+.bigtext-background {
+    color: #91AA9D;
+    /*DarkBlue Text*/
+}
+
+/*HEADER*/
+#main-header {
+    border-bottom: 1px solid #91AA9D;
+}
+
+/* SUBHEADER */
+#SUBHEADER .subheader-content {
+    color: #fff;
+    background: #193441;
+    padding: 0.25em;
+}
+
+/*  NAVBAR */
+
+#navbar {
+    text-transform: uppercase;
+}
+
+    #navbar li {
+        display: inline;
+        padding-right: 20px;
+        list-style: none;
+    }
+
+    #navbar a {
+        text-decoration: none;
+        color: #999;
+    }
+
+        #navbar li.currentpage a, #navbar a:hover {
+            color: #91AA9D;
+            border-bottom: 3px solid #91AA9D;
+            padding-bottom: 3px;
+        }
+
+/* HERO */
+
+#hero {
+    background: url(https://s8.postimg.cc/itod89ig5/showcase.jpg) no-repeat center center;
+    border-bottom: 1px solid #91AA9D;
+    margin-bottom: 30px;
+}
+
+    #hero .row {
+        height: 600px;
+    }
+
+    #hero h1 {
+        font-size: 50px;
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+
+    #hero p {
+        color: #CCC;
+        margin: 0px;
+    }
+
+    #hero .hero-content {
+        background: #333;
+        color: #fff;
+        border-radius: 90px;
+        padding: 40px;
+        opacity: 0.9;
+    }
+
+/* FEATURES */
+
+#features h2 {
+    font-size: 35px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+#features p {
+    color: #888;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+#features .fas {
+    font-size: 60px;
+    color: #3E606F;
+}
+
+/* INFO */
+
+#info {
+    background: #333 url(https://s8.postimg.cc/jj75kmb9x/info-bg.jpg) no-repeat center center;
+    color: #fff;
+}
+
+    #info h2 {
+        font-size: 35px;
+        margin: 0px;
+        padding-bottom: 10px
+    }
+
+    #info ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    #info li {
+        line-height: 2em;
+        font-size: 20px
+    }
+
+/* COMPANY */
+
+#company {
+    background: #193441;
+    color: #fff;
+    padding: 10px 0;
+}
+
+    #company h4 {
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+
+    #company ul {
+        padding: 0px;
+        list-style: none;
+        line-height: 2em;
+    }
+
+    #company input[type="text"] {
+        padding: 7px;
+    }
+
+    #company button {
+        background: #222;
+        color: #fff;
+        padding: 10px;
+        border: 0px;
+    }
+
+/* FOOTER */
+
+#main-footer {
+    background: #333;
+    color: #fff;
+}
+
+/* PAGE */
+
+#page {
+    margin-bottom: 40px;
+}
+
+/*SERVICES*/
+
+.services ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+    .services ul li:nth-child(odd) {
+        background: #333;
+        color: #fff;
+    }
+
+    .services ul li:nth-child(even) {
+        background: #919AAD;
+        color: #fff;
+    }
+
+/* CONTACT */
+.contact form {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+    .contact form input[type="text"] {
+        width: 50%;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .contact form textarea {
+        width: 50%;
+        height: 100px;
+    }
+
+    .contact form button {
+        width: 50%;
+        padding: 10px 0;
+        border: 0;
+        background: #222;
+        color: #fff;
+    }
+
+        .contact form button:hover {
+            color: #222;
+            background: #fff;
+        }
+
+
+
+    .contact form label {
+        text-transform: uppercase;
+    }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) {
+    #hero h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    #hero .hero-content {
+        padding: 40px 10px;
+    }
+}
