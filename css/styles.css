@@ -175,7 +175,7 @@ img {
 
 /* FOOTER */
 
-#main-footer {
+#main-footer, .main-footer {
     background: #333;
     color: #fff;
 }
