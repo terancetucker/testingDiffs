@@ -71,7 +71,9 @@ img {
         }
 
 /* HERO */
-
+h1 {
+    font-size: 48px;
+}
 #hero {
     background: url(https://s8.postimg.cc/itod89ig5/showcase.jpg) no-repeat center center;
     border-bottom: 1px solid #91AA9D;
